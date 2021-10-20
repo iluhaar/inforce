@@ -6,7 +6,15 @@ interface ProductItemPros {
   productItem: IProduct;
 }
 const ProductItem: FC<ProductItemPros> = ({ productItem }) => {
-  const [active, setActive] = useState(false);
+    const [active, setActive] = useState(false);
+    const [changedName, setChangedName] = useState('')
+    const [changedCount, setChangedCount] = useState('')
+
+    const handleSubmit = () => {
+        // e.preventDefault();
+        console.log('Submited')
+    }
+
 
   return (
     <div>
@@ -36,16 +44,15 @@ const ProductItem: FC<ProductItemPros> = ({ productItem }) => {
         <form action="submit">
           <div>
             <label htmlFor="text">Change product name: </label>
-            <input type="text" placeholder="name" />
+            <input type="text" placeholder="name" onChange={(e) => setChangedName(e.target.value)}/>
           </div>
           <div>
             <label htmlFor="text">Change product count: </label>
-            <input type="text" placeholder="count" />
+            <input type="text" placeholder="count" onChange={(e) => setChangedCount(e.target.value)}/>
           </div>
-          <button>Change product description</button>
+          <button onClick={() => {}}>Change product description</button>
         </form>
       </Modal>
-      {/* <div><button></button></div> */}
     </div>
   );
 };
