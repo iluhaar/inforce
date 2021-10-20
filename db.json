@@ -1,0 +1,119 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "300g"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "400g"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "400g"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "700g"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "700g"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "700g"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://netsh.pp.ua/wp-content/uploads/2017/08/Placeholder-1.png",
+      "name": "Product name",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "700g"
+    }
+  ],
+
+  "comments": [
+    {
+      "id": 3,
+      "productId": 1,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    },
+    {
+      "id": 3,
+      "productId": 4,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    }
+  ]
+}
