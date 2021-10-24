@@ -2,6 +2,7 @@ import { IProduct } from './../../models/IProduct';
 import axios from "axios";
 import { AppDispatch } from "../store";
 import { productSlice } from './productSlice';
+import { AnyArray } from 'immer/dist/internal';
 export const fetchProducts = () => async (dispatch:AppDispatch) => {
     try {
         dispatch(productSlice.actions.productFetching())
@@ -11,4 +12,8 @@ export const fetchProducts = () => async (dispatch:AppDispatch) => {
     } catch (error) {
         // dispatch(productSlice.actions.productFetchingError(error.message))
     }
+}
+
+export const newProductData = (dispatch:AppDispatch, payload:AnyArray) => {
+    dispatch(productSlice.actions.newProductSet(payload))
 }

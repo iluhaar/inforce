@@ -30,3 +30,10 @@ img {
 .sizeItem {
   flex: 50%;
 }
+
+form div {
+  padding: 10px;
+}
+form label {
+  max-width: 100px;
+}

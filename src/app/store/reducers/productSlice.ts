@@ -52,6 +52,9 @@ export const productSlice = createSlice({
         productFetchingError(state, action:PayloadAction<string>) {
             state.isLoading = false;
             state.error = action.payload
+        },
+        newProductSet(state, action:PayloadAction<IProduct[]>){
+            state.product = action.payload
         }
     }
 })

@@ -5,9 +5,8 @@ import ProductItem from "./ProductItem";
 
 const ProductList = () => {
   
-    const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch();
   const { product } = useAppSelector((state) => state.productReducer);
-  console.log(product);
   useEffect(() => {
     dispatch(fetchProducts());
   }, []);
